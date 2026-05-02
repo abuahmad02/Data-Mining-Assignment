@@ -1,0 +1,27 @@
+Ass-4: Cancer Dataset Classification using Logistic Regression
+-----------------------------------------------------------------
+Accuracy: 0.9825
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   malignant       0.98      0.98      0.98        42
+      benign       0.99      0.99      0.99        72
+
+    accuracy                           0.98       114
+   macro avg       0.98      0.98      0.98       114
+weighted avg       0.98      0.98      0.98       114
+
+Confusion Matrix:
+[[41  1]
+ [ 1 71]]
+
+Confusion Matrix Explanation:
+Malignant correctly predicted as malignant: 41
+Malignant incorrectly predicted as benign: 1
+Benign incorrectly predicted as malignant: 1
+Benign correctly predicted as benign: 71
+
+Here,
+The Logistic Regression model achieved 98.25% accuracy.
+Out of 114 test samples, 112 were classified correctly and 2 were misclassified.
